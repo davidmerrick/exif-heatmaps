@@ -1,5 +1,7 @@
 This is a set of scripts to streamline the process of creating a heatmap from geotagged images.
 
+![Heatmap Screenshot](/readme_assets/readme_1.png)
+
 ## Prerequisites
 
 This requires Docker and a Google Maps JS API key.
