@@ -1,0 +1,559 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Canon",
+            "Model": "Canon EOS 6D",
+            "XResolution": 240,
+            "YResolution": 240,
+            "ResolutionUnit": 2,
+            "Software": "Adobe Photoshop Lightroom 6.5.1 (Macintosh)",
+            "ModifyDate": "2016:10:25 17:44:12",
+            "ExifOffset": 222,
+            "GPSInfo": 782
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.001,
+            "FNumber": 10,
+            "ExposureProgram": 3,
+            "ISO": 1600,
+            "SensitivityType": 2,
+            "RecommendedExposureIndex": 1600,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2016:09:07 08:47:27",
+            "CreateDate": "2016:09:07 08:47:27",
+            "ShutterSpeedValue": 9.965784,
+            "ApertureValue": 6.643856,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 4,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 105,
+            "SubSecTimeOriginal": "94",
+            "SubSecTimeDigitized": "94",
+            "ColorSpace": 65535,
+            "FocalPlaneXResolution": 1520,
+            "FocalPlaneYResolution": 1520,
+            "FocalPlaneResolutionUnit": 3,
+            "CustomRendered": 0,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "SceneCaptureType": 0,
+            "SerialNumber": "272021006960",
+            "LensInfo": [
+              24,
+              105,
+              null,
+              null
+            ],
+            "LensModel": "EF24-105mm f/4L IS USM",
+            "LensSerialNumber": "0000a1861c"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              37,
+              58.0338,
+              0
+            ],
+            "GPSLongitudeRef": "E",
+            "GPSLongitude": [
+              23,
+              43.2824,
+              0
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 147.6,
+            "GPSTimeStamp": [
+              15,
+              45,
+              45.998
+            ],
+            "GPSSatellites": "12",
+            "GPSStatus": "A",
+            "GPSMeasureMode": "3",
+            "GPSDOP": 1,
+            "GPSMapDatum": "WGS-84",
+            "GPSDateStamp": "2016:09:07"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1473263145000,
+        "gpsTimeStr": "Wed Sep 07 2016 15:45:45 GMT+0000 (UTC)",
+        "imgTime": 1473238047000,
+        "imgTimeStr": "Wed Sep 07 2016 08:47:27 GMT+0000 (UTC)",
+        "imgPath": "img/demo_2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.721373333333332,
+          37.96723,
+          147.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Canon",
+            "Model": "Canon EOS 6D",
+            "XResolution": 240,
+            "YResolution": 240,
+            "ResolutionUnit": 2,
+            "Software": "Adobe Photoshop Lightroom 6.5.1 (Macintosh)",
+            "ModifyDate": "2016:10:25 17:44:59",
+            "ExifOffset": 222,
+            "GPSInfo": 782
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.00125,
+            "FNumber": 6.3,
+            "ExposureProgram": 3,
+            "ISO": 5000,
+            "SensitivityType": 2,
+            "RecommendedExposureIndex": 5000,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2016:09:07 23:27:24",
+            "CreateDate": "2016:09:07 23:27:24",
+            "ShutterSpeedValue": 9.643856,
+            "ApertureValue": 5.310704,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 4,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 105,
+            "SubSecTimeOriginal": "00",
+            "SubSecTimeDigitized": "00",
+            "ColorSpace": 65535,
+            "FocalPlaneXResolution": 1520,
+            "FocalPlaneYResolution": 1520,
+            "FocalPlaneResolutionUnit": 3,
+            "CustomRendered": 0,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "SceneCaptureType": 0,
+            "SerialNumber": "272021006960",
+            "LensInfo": [
+              24,
+              105,
+              null,
+              null
+            ],
+            "LensModel": "EF24-105mm f/4L IS USM",
+            "LensSerialNumber": "0000a1861c"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              37,
+              58.2957,
+              0
+            ],
+            "GPSLongitudeRef": "E",
+            "GPSLongitude": [
+              23,
+              43.4109,
+              0
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 108.2,
+            "GPSTimeStamp": [
+              6,
+              25,
+              42
+            ],
+            "GPSSatellites": "11",
+            "GPSStatus": "A",
+            "GPSMeasureMode": "3",
+            "GPSDOP": 4.8,
+            "GPSMapDatum": "WGS-84",
+            "GPSDateStamp": "2016:09:08"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1473315942000,
+        "gpsTimeStr": "Thu Sep 08 2016 06:25:42 GMT+0000 (UTC)",
+        "imgTime": 1473290844000,
+        "imgTimeStr": "Wed Sep 07 2016 23:27:24 GMT+0000 (UTC)",
+        "imgPath": "img/demo_3.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.723515,
+          37.971595,
+          108.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Canon",
+            "Model": "Canon EOS 6D",
+            "XResolution": 240,
+            "YResolution": 240,
+            "ResolutionUnit": 2,
+            "Software": "Adobe Photoshop Lightroom 6.5.1 (Macintosh)",
+            "ModifyDate": "2016:10:25 17:44:23",
+            "ExifOffset": 222,
+            "GPSInfo": 782
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.001,
+            "FNumber": 5.6,
+            "ExposureProgram": 3,
+            "ISO": 1600,
+            "SensitivityType": 2,
+            "RecommendedExposureIndex": 1600,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2016:09:07 08:10:55",
+            "CreateDate": "2016:09:07 08:10:55",
+            "ShutterSpeedValue": 9.965784,
+            "ApertureValue": 4.970854,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 4,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 105,
+            "SubSecTimeOriginal": "00",
+            "SubSecTimeDigitized": "00",
+            "ColorSpace": 65535,
+            "FocalPlaneXResolution": 1520,
+            "FocalPlaneYResolution": 1520,
+            "FocalPlaneResolutionUnit": 3,
+            "CustomRendered": 0,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "SceneCaptureType": 0,
+            "SerialNumber": "272021006960",
+            "LensInfo": [
+              24,
+              105,
+              null,
+              null
+            ],
+            "LensModel": "EF24-105mm f/4L IS USM",
+            "LensSerialNumber": "0000a1861c"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              37,
+              58.4304,
+              0
+            ],
+            "GPSLongitudeRef": "E",
+            "GPSLongitude": [
+              23,
+              43.4539,
+              0
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 74.3,
+            "GPSTimeStamp": [
+              15,
+              9,
+              15
+            ],
+            "GPSSatellites": "12",
+            "GPSStatus": "A",
+            "GPSMeasureMode": "3",
+            "GPSDOP": 12.6,
+            "GPSMapDatum": "WGS-84",
+            "GPSDateStamp": "2016:09:07"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1473260955000,
+        "gpsTimeStr": "Wed Sep 07 2016 15:09:15 GMT+0000 (UTC)",
+        "imgTime": 1473235855000,
+        "imgTimeStr": "Wed Sep 07 2016 08:10:55 GMT+0000 (UTC)",
+        "imgPath": "img/demo_1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.724231666666668,
+          37.97384,
+          74.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Canon",
+            "Model": "Canon EOS 6D",
+            "XResolution": 240,
+            "YResolution": 240,
+            "ResolutionUnit": 2,
+            "Software": "Adobe Photoshop Lightroom 6.5.1 (Macintosh)",
+            "ModifyDate": "2016:10:25 17:45:55",
+            "ExifOffset": 222,
+            "GPSInfo": 782
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.003125,
+            "FNumber": 5.6,
+            "ExposureProgram": 3,
+            "ISO": 5000,
+            "SensitivityType": 2,
+            "RecommendedExposureIndex": 5000,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2016:09:08 08:58:06",
+            "CreateDate": "2016:09:08 08:58:06",
+            "ShutterSpeedValue": 8.321928,
+            "ApertureValue": 4.970854,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 4,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 24,
+            "SubSecTimeOriginal": "00",
+            "SubSecTimeDigitized": "00",
+            "ColorSpace": 65535,
+            "FocalPlaneXResolution": 1520,
+            "FocalPlaneYResolution": 1520,
+            "FocalPlaneResolutionUnit": 3,
+            "CustomRendered": 0,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "SceneCaptureType": 0,
+            "SerialNumber": "272021006960",
+            "LensInfo": [
+              24,
+              105,
+              null,
+              null
+            ],
+            "LensModel": "EF24-105mm f/4L IS USM",
+            "LensSerialNumber": "0000a1861c"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              37,
+              58.4131,
+              0
+            ],
+            "GPSLongitudeRef": "E",
+            "GPSLongitude": [
+              23,
+              43.8044,
+              0
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 89.2,
+            "GPSTimeStamp": [
+              15,
+              56,
+              20
+            ],
+            "GPSSatellites": "12",
+            "GPSStatus": "A",
+            "GPSMeasureMode": "3",
+            "GPSDOP": 21.7,
+            "GPSMapDatum": "WGS-84",
+            "GPSDateStamp": "2016:09:08"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1473350180000,
+        "gpsTimeStr": "Thu Sep 08 2016 15:56:20 GMT+0000 (UTC)",
+        "imgTime": 1473325086000,
+        "imgTimeStr": "Thu Sep 08 2016 08:58:06 GMT+0000 (UTC)",
+        "imgPath": "img/demo_5.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.730073333333333,
+          37.973551666666665,
+          89.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Canon",
+            "Model": "Canon EOS 6D",
+            "XResolution": 240,
+            "YResolution": 240,
+            "ResolutionUnit": 2,
+            "Software": "Adobe Photoshop Lightroom 6.5.1 (Macintosh)",
+            "ModifyDate": "2016:10:25 17:45:26",
+            "ExifOffset": 222,
+            "GPSInfo": 782
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0003125,
+            "FNumber": 4.5,
+            "ExposureProgram": 3,
+            "ISO": 2500,
+            "SensitivityType": 2,
+            "RecommendedExposureIndex": 2500,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2016:09:08 08:05:17",
+            "CreateDate": "2016:09:08 08:05:17",
+            "ShutterSpeedValue": 11.643856,
+            "ApertureValue": 4.33985,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 4,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 73,
+            "SubSecTimeOriginal": "00",
+            "SubSecTimeDigitized": "00",
+            "ColorSpace": 65535,
+            "FocalPlaneXResolution": 1520,
+            "FocalPlaneYResolution": 1520,
+            "FocalPlaneResolutionUnit": 3,
+            "CustomRendered": 0,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "SceneCaptureType": 0,
+            "SerialNumber": "272021006960",
+            "LensInfo": [
+              24,
+              105,
+              null,
+              null
+            ],
+            "LensModel": "EF24-105mm f/4L IS USM",
+            "LensSerialNumber": "0000a1861c"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              37,
+              58.0614,
+              0
+            ],
+            "GPSLongitudeRef": "E",
+            "GPSLongitude": [
+              23,
+              44.4839,
+              0
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 90,
+            "GPSTimeStamp": [
+              15,
+              3,
+              34
+            ],
+            "GPSSatellites": "12",
+            "GPSStatus": "A",
+            "GPSMeasureMode": "3",
+            "GPSMapDatum": "WGS-84",
+            "GPSDateStamp": "2016:09:08"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1473347014000,
+        "gpsTimeStr": "Thu Sep 08 2016 15:03:34 GMT+0000 (UTC)",
+        "imgTime": 1473321917000,
+        "imgTimeStr": "Thu Sep 08 2016 08:05:17 GMT+0000 (UTC)",
+        "imgPath": "img/demo_4.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.741398333333333,
+          37.96769,
+          90
+        ]
+      }
+    }
+  ]
+}

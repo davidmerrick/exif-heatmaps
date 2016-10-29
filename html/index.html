@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Heatmaps</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script>
+            // Fetch the API key and dynamically load it
+            $(document).ready(function(){
+                $.get("google_maps_api_key", function(data){
+                    var API_KEY = data;
+                    var s = document.createElement("script");
+                    s.type = "text/javascript";
+                    s.src = "https://maps.googleapis.com/maps/api/js?key=" + API_KEY + "&libraries=visualization&callback=initMap";
+                    // Use any selector
+                    $("body").append(s);
+                })
+            });
+        </script>
+  </head>
+
+  <body>
+    <div id="floating-panel">
+      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button onclick="changeOpacity()">Change opacity</button>
+    </div>
+    <div id="map"></div>
+    <script>
+        var points;
+        function getMeanLong(points){
+            var sum = 0;
+            for(var i=0; i < points.length; i++){
+                var currentLong = points[i][1];
+                sum += currentLong;
+            }
+            return sum/points.length;
+        };
+
+        function getMeanLat(points){
+            var sum = 0;
+            for(var i=0; i < points.length; i++){
+                var currentLat = points[i][0];
+                sum += currentLat;
+            }
+            return sum/points.length;
+        };
+
+      var map, heatmap;
+
+      function initMap() {
+          $.getJSON( "exif.geojson", function( json ) {
+              points = [];
+              $.each(json.features, function(){
+                  var lat = $(this)[0].geometry.coordinates[1];
+                  var long = $(this)[0].geometry.coordinates[0];
+                  var point = [lat, long];
+                  points.push(point);
+              });
+              var meanLat = getMeanLat(points);
+              var meanLong = getMeanLong(points);
+
+              map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 8,
+                  center: {lat: meanLat, lng: meanLong},
+                  mapTypeId: 'satellite'
+              });
+
+              heatmap = new google.maps.visualization.HeatmapLayer({
+                  data: getPoints(),
+                  map: map,
+                  radius: 50,
+                  gradient: [
+                      'rgba(0, 255, 255, 0)',
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 191, 255, 1)',
+                      'rgba(0, 127, 255, 1)',
+                      'rgba(0, 63, 255, 1)',
+                      'rgba(0, 0, 255, 1)',
+                      'rgba(0, 0, 223, 1)',
+                      'rgba(0, 0, 191, 1)',
+                      'rgba(0, 0, 159, 1)',
+                      'rgba(0, 0, 127, 1)',
+                      'rgba(63, 0, 91, 1)',
+                      'rgba(127, 0, 63, 1)',
+                      'rgba(191, 0, 31, 1)',
+                      'rgba(255, 0, 0, 1)'
+                  ]
+              });
+          });
+      }
+
+      function toggleHeatmap() {
+        heatmap.setMap(heatmap.getMap() ? null : map);
+      }
+
+      function changeOpacity() {
+        heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+      }
+
+      function getPoints() {
+        var pointsArray = [];
+        for(var i=0; i < points.length; i++){
+            var currentPoint = new google.maps.LatLng(points[i][0], points[i][1]);
+            pointsArray.push(currentPoint);
+        }
+
+        return pointsArray;
+      }
+    </script>
+  </body>
+</html>
