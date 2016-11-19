@@ -8,6 +8,13 @@ This requires Docker and a Google Maps JS API key.
 Docker: https://www.docker.com/
 Google Maps API key: https://developers.google.com/maps/documentation/javascript/get-api-key
 
+### Installing Docker for Mac
+
+1. Install Homebrew /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2. Tap Cask brew tap caskroom/cask
+3. Install docker brew cask install docker
+4. Start docker CMD+SPACE, type docker, enter.
+
 ## Usage
 
 1. Put your images in the "img" folder.
